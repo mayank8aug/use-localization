@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save use-localization
+npm install use-localization
 ```
 
 ## Usage
@@ -30,6 +30,13 @@ function MyLocalizationComponent() {
   )
 }
 ```
+
+## Examples
+
+To play around with the hook, try these interactive sample apps
+
+[CodeSandbox](https://codesandbox.io/s/use-localization-4juus)
+
 
 ## License
 
