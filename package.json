@@ -1,0 +1,35 @@
+{
+  "name": "use-localization",
+  "version": "1.0.1",
+  "description": "Custom Hook to support localization when locale changes. The hook will accept the locale and written the localization utilities.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank8aug/use-localization.git"
+  },
+  "author": "mayank8aug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayank8aug/use-localization/issues"
+  },
+  "homepage": "https://github.com/mayank8aug/use-localization#readme",
+  "keywords": [
+    "react-use-localization",
+    "useLocalization",
+    "useLocalization hook",
+    "use-localization hook",
+    "custom hook",
+    "l10n",
+    "localization",
+    "i18n",
+    "internationalization",
+    "locale"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
