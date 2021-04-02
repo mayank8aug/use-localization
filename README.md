@@ -23,8 +23,8 @@ function MyLocalizationComponent() {
         <div>
             <div>Formatted Currency: {formatCurrency(783984.356)}</div>
             <div>Flag: {flag}</div>
-            <button type="button" onclick={() => setLocale(locale === 'en-IN' ? 'en-US' : 'en-IN')}>
-                Switch to ${locale === 'en-IN' ? 'US' : 'INDIA'}
+            <button type="button" onClick={() => setLocale(locale === 'en-IN' ? 'en-US' : 'en-IN')}>
+                Switch to {locale === 'en-IN' ? 'US' : 'INDIA'}
             </button>
         </div>
   )
