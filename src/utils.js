@@ -1,110 +1,110 @@
 export const currencies = {
-    'sq_AL': 'ALL', // ALBANIA
-    'ar_DZ': 'DZD', // ALGERIA
-    'ar_BH': 'BHD', // BAHRAIN
-    'ar_EG': 'EGP', // EGYPT
-    'ar_IQ': 'IQD', // IRAQ
-    'ar_JO': 'JOD', // JORDAN
-    'ar_KW': 'KWD', // KUWAIT
-    'ar_LB': 'LBP', // LEBANON
-    'ar_LY': 'LYD', // LIBYA
-    'ar_MA': 'MAD', // MOROCCO
-    'ar_OM': 'OMR', // OMAN
-    'ar_QA': 'QAR', // QATAR
-    'ar_SA': 'SAR', // SAUDI ARABIA
-    'ar_SD': 'SDG', // SUDAN
-    'ar_SY': 'SYP', // SYRIA
-    'ar_TN': 'TND', // TUNISIA
-    'ar_AE': 'AED', // UAE
-    'ar_YE': 'YER', // YEMEN
-    'be_BY': 'BYN', // BELARUS
-    'bg_BG': 'BGN', // BULGARIA
-    'ca_ES': 'EUR', // SPAIN
-    'zh_CN': 'CNY', // CHINA
-    'zh_HK': 'HKD', // HONG KONG
-    'zh_SG': 'SGD', // SINGAPORE
-    'zh_TW': 'TWD', // TAIWAN
-    'hr_HR': 'HRK', // CROATIA
-    'cs_CZ': 'CZK', // CZECH REPUBLIC
-    'da_DK': 'DKK', // DENMARK
-    'nl_BE': 'EUR', // BELIGIUM
-    'nl_NL': 'EUR', // NETHERLANDS
-    'en_AU': 'AUD', // AUSTRALIA
-    'en_CA': 'CAD', // CANADA
+    'sq-AL': 'ALL', // ALBANIA
+    'ar-DZ': 'DZD', // ALGERIA
+    'ar-BH': 'BHD', // BAHRAIN
+    'ar-EG': 'EGP', // EGYPT
+    'ar-IQ': 'IQD', // IRAQ
+    'ar-JO': 'JOD', // JORDAN
+    'ar-KW': 'KWD', // KUWAIT
+    'ar-LB': 'LBP', // LEBANON
+    'ar-LY': 'LYD', // LIBYA
+    'ar-MA': 'MAD', // MOROCCO
+    'ar-OM': 'OMR', // OMAN
+    'ar-QA': 'QAR', // QATAR
+    'ar-SA': 'SAR', // SAUDI ARABIA
+    'ar-SD': 'SDG', // SUDAN
+    'ar-SY': 'SYP', // SYRIA
+    'ar-TN': 'TND', // TUNISIA
+    'ar-AE': 'AED', // UAE
+    'ar-YE': 'YER', // YEMEN
+    'be-BY': 'BYN', // BELARUS
+    'bg-BG': 'BGN', // BULGARIA
+    'ca-ES': 'EUR', // SPAIN
+    'zh-CN': 'CNY', // CHINA
+    'zh-HK': 'HKD', // HONG KONG
+    'zh-SG': 'SGD', // SINGAPORE
+    'zh-TW': 'TWD', // TAIWAN
+    'hr-HR': 'HRK', // CROATIA
+    'cs-CZ': 'CZK', // CZECH REPUBLIC
+    'da-DK': 'DKK', // DENMARK
+    'nl-BE': 'EUR', // BELIGIUM
+    'nl-NL': 'EUR', // NETHERLANDS
+    'en-AU': 'AUD', // AUSTRALIA
+    'en-CA': 'CAD', // CANADA
     'en-IN': 'INR', // INDIA
-    'en_IE': 'EUR', // IRELAND
-    'en_MT': 'EUR', // MALTA
-    'en_NZ': 'NZD', // NEW ZEALAND
-    'en_PH': 'PHP', // PHILIPPINES
-    'en_SG': 'SGD', // SINGAPORE
-    'en_ZA': 'ZAR', // SOUTH AFRICA
-    'en_GB': 'GBP', // UNITED KINGDOM
+    'en-IE': 'EUR', // IRELAND
+    'en-MT': 'EUR', // MALTA
+    'en-NZ': 'NZD', // NEW ZEALAND
+    'en-PH': 'PHP', // PHILIPPINES
+    'en-SG': 'SGD', // SINGAPORE
+    'en-ZA': 'ZAR', // SOUTH AFRICA
+    'en-GB': 'GBP', // UNITED KINGDOM
     'en-US': 'USD', // US
-    'et_EE': 'EUR', // ESTONIA
-    'fi_FI': 'EUR', // FINLAND
-    'fr_BE': 'EUR', // BELGIUM
-    'fr_CA': 'CAD', // CANADA
-    'fr_FR': 'EUR', // FRANCE
-    'fr_LU': 'EUR', // LUXEMBOURG
-    'fr_CH': 'CHF', // SWITZERLAND
-    'de_AT': 'EUR', // AUSTRIA
+    'et-EE': 'EUR', // ESTONIA
+    'fi-FI': 'EUR', // FINLAND
+    'fr-BE': 'EUR', // BELGIUM
+    'fr-CA': 'CAD', // CANADA
+    'fr-FR': 'EUR', // FRANCE
+    'fr-LU': 'EUR', // LUXEMBOURG
+    'fr-CH': 'CHF', // SWITZERLAND
+    'de-AT': 'EUR', // AUSTRIA
     'de-DE': 'EUR', // GERMANY
-    'de_LU': 'EUR', // LUXEMBOURG
-    'de_CH': 'CHF', // SWITZERLAND
-    'el_CY': 'EUR', // CYPRUS
-    'el_GR': 'EUR', // GREECE
-    'iw_IL': 'ILS', // ISRAEL
-    'hi_IN': 'INR', // INDIA
-    'hu_HU': 'HUF', // HUNGARY
-    'is_IS': 'ISK', // ICELAND
-    'in_ID': 'IDR', // INDONESIA
-    'ga_IE': 'EUR', // IRELAND
-    'it_IT': 'EUR', // ITALY
-    'it_CH': 'CHF', // SWITZERLAND
+    'de-LU': 'EUR', // LUXEMBOURG
+    'de-CH': 'CHF', // SWITZERLAND
+    'el-CY': 'EUR', // CYPRUS
+    'el-GR': 'EUR', // GREECE
+    'iw-IL': 'ILS', // ISRAEL
+    'hi-IN': 'INR', // INDIA
+    'hu-HU': 'HUF', // HUNGARY
+    'is-IS': 'ISK', // ICELAND
+    'in-ID': 'IDR', // INDONESIA
+    'ga-IE': 'EUR', // IRELAND
+    'it-IT': 'EUR', // ITALY
+    'it-CH': 'CHF', // SWITZERLAND
     'ja-JP': 'JPY',  // JAPAN
-    'ko_KR': 'KRW', // SOUTH KOREA
-    'lv_LV': 'EUR', // LATVIA
-    'lt_LT': 'EUR', // LITHUANIA
-    'mk_MK': 'MKD', // MACEDONIA
-    'ms_MY': 'MYR', // MALAYSIA
-    'mt_MT': 'EUR', // MALTA
-    'no_NO': 'NOK', // NORWAY
-    'pl_PL': 'PLN', // POLAND
-    'pt_BR': 'BRL', // BRAZIL
-    'pt_PT': 'EUR', // PORTUGAL
-    'ro_RO': 'RON', // ROMANIA
-    'ru_RU': 'RUB', // RUSSIA
-    'sr_BA': 'BAM', // BOSNIA AND HERZEGOVINA
-    'sr_ME': 'EUR', // MONTENEGRO
-    'sr_CS': 'EURO', // SERBIA AND MONTENEGRO
-    'sr_RS': 'RSD', // SERBIA
-    'sk_SK': 'EUR', // SLOVAKIA
-    'sl_SI': 'EUR', // SLOVENIA
-    'es_AR': 'ARS', // ARGENTINA
-    'es_BO': 'BOB', // BOLIVIA
-    'es_CL': 'CLP', // CHILE
-    'es_CO': 'COP', // COLOMBIA
-    'es_CR': 'CRC', // COSTA RICA
-    'es_DO': 'DOP', // DOMINICAN REPUBLIC
-    'es_EC': 'USD', // ECUADOR
-    'es_SV': 'USD', // EL SALVADOR
-    'es_GT': 'GTQ', // GUATEMALA
-    'es_HN': 'HNL', // HONDURAS
-    'es_MX': 'MXN', // MEXICO
-    'es_NI': 'NIO', // NICARAGUA
-    'es_PA': 'USD', // PANAMA
-    'es_PY': 'PYG', // PARAGUAY
-    'es_PE': 'PEN', // PERU
-    'es_PR': 'USD', // PUERTO RICO
-    'es_ES': 'EUR', // SPAIN
-    'es_US': 'USD', // US
-    'es_UY': 'UYU', // URUGUAY
-    'es_VE': 'VEF', // VENEZUELA
-    'sv_SE': 'SEK', // SWEDEN
-    'th_TH': 'THB', // THAILAND
-    'tr_TR': 'TRY', // TURKEY
-    'uk_UA': 'UAH', // UKRAINE
-    'vi_VN': 'VND', // VIETNAM
+    'ko-KR': 'KRW', // SOUTH KOREA
+    'lv-LV': 'EUR', // LATVIA
+    'lt-LT': 'EUR', // LITHUANIA
+    'mk-MK': 'MKD', // MACEDONIA
+    'ms-MY': 'MYR', // MALAYSIA
+    'mt-MT': 'EUR', // MALTA
+    'no-NO': 'NOK', // NORWAY
+    'pl-PL': 'PLN', // POLAND
+    'pt-BR': 'BRL', // BRAZIL
+    'pt-PT': 'EUR', // PORTUGAL
+    'ro-RO': 'RON', // ROMANIA
+    'ru-RU': 'RUB', // RUSSIA
+    'sr-BA': 'BAM', // BOSNIA AND HERZEGOVINA
+    'sr-ME': 'EUR', // MONTENEGRO
+    'sr-CS': 'EURO', // SERBIA AND MONTENEGRO
+    'sr-RS': 'RSD', // SERBIA
+    'sk-SK': 'EUR', // SLOVAKIA
+    'sl-SI': 'EUR', // SLOVENIA
+    'es-AR': 'ARS', // ARGENTINA
+    'es-BO': 'BOB', // BOLIVIA
+    'es-CL': 'CLP', // CHILE
+    'es-CO': 'COP', // COLOMBIA
+    'es-CR': 'CRC', // COSTA RICA
+    'es-DO': 'DOP', // DOMINICAN REPUBLIC
+    'es-EC': 'USD', // ECUADOR
+    'es-SV': 'USD', // EL SALVADOR
+    'es-GT': 'GTQ', // GUATEMALA
+    'es-HN': 'HNL', // HONDURAS
+    'es-MX': 'MXN', // MEXICO
+    'es-NI': 'NIO', // NICARAGUA
+    'es-PA': 'USD', // PANAMA
+    'es-PY': 'PYG', // PARAGUAY
+    'es-PE': 'PEN', // PERU
+    'es-PR': 'USD', // PUERTO RICO
+    'es-ES': 'EUR', // SPAIN
+    'es-US': 'USD', // US
+    'es-UY': 'UYU', // URUGUAY
+    'es-VE': 'VEF', // VENEZUELA
+    'sv-SE': 'SEK', // SWEDEN
+    'th-TH': 'THB', // THAILAND
+    'tr-TR': 'TRY', // TURKEY
+    'uk-UA': 'UAH', // UKRAINE
+    'vi-VN': 'VND', // VIETNAM
 };
 
 export const rtlLangs = ['ar', 'fa', 'he', 'ps', 'ur'];
