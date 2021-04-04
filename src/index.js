@@ -1,29 +1,25 @@
 import React, { useCallback, useMemo } from 'react';
-
-const currency = {
-    'en-US': 'USD', // US
-    'en-IN': 'INR', // INDIA
-    'de-DE': 'EUR', // GERMANY
-    'ja-JP': 'JPY'  // JAPAN
-};
+import { currencies, rtlLangs } from './utils';
 
 function useLocalization(props) {
     const { locale } = props;
-    if (!locale) return {};
+    if (!locale || !currencies[locale]) return {};
+    const [lang, loc] = locale.split('-');
     const formatCurrency = useCallback((value) => {
         return new Intl.NumberFormat(locale, {
             style: 'currency',
-            currency: currency[locale]
+            currency: currencies[locale]
         }).format(value)
     }, [locale]);
 
     const flag = useMemo(() => typeof String.fromCodePoint !== 'undefined'
-    ? locale.split('-')[1].toUpperCase().replace(/./g, (char) => String.fromCodePoint(char.charCodeAt(0) + 127397))
+    ? loc.toUpperCase().replace(/./g, (char) => String.fromCodePoint(char.charCodeAt(0) + 127397))
     : "", [locale]);
 
     return {
         formatCurrency,
-        flag
+        flag,
+        isRTL: rtlLangs.includes(lang)
     };
 }
 
