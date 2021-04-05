@@ -53,7 +53,7 @@ To play around with the hook, try these interactive sample apps
 An object containing below properties
 
 | Prop | Return Type | Description |
-| --- | :---: | :---: | :---: | --- |
+| --- | :---: | :---: | --- |
 | formatCurrency | Function | Takes any number as an argument and returns the formatted localized value with currency |
 | formatNumber | Function | Takes any number as an argument and returns the formatted localized value |
 | flag | Text | Text representation of the country flag based on the locale. For example, 🇮🇳 for en-IN |
@@ -63,15 +63,17 @@ An object containing below properties
 ## Supported Locales
 
 ```bash
-sq-AL, ar-DZ, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-LY, ar-MA, ar-OM, ar-QA, 
-ar-SA, ar-SD, ar-SY, ar-TN, ar-AE, ar-YE, be-BY, bg-BG, ca-ES, zh-CN, zh-HK, zh-SG, 
-zh-TW, hr-HR, cs-CZ, da-DK, nl-BE, nl-NL, en-AU, en-CA, en-IN, en-IE, en-MT, en-NZ, 
-en-PH, en-SG, en-ZA, en-GB, en-US, et-EE, fi-FI, fr-BE, fr-CA, fr-FR, fr-LU, fr-CH, 
-de-AT, de-DE, de-LU, de-CH, el-CY, el-GR, iw-IL, hi-IN, hu-HU, is-IS, in-ID, ga-IE, 
-it-IT, it-CH, ja-JP, ko-KR, lv-LV, lt-LT, mk-MK, ms-MY, mt-MT, no-NO, pl-PL, pt-BR, 
-pt-PT, ro-RO, ru-RU, sr-BA, sr-ME, sr-CS, sr-RS, sk-SK, sl-SI, es-AR, es-BO, es-CL, 
-es-CO, es-CR, es-DO, es-EC, es-SV, es-GT, es-HN, es-MX, es-NI, es-PA, es-PY, es-PE, 
-es-PR, es-ES, es-US, es-UY, es-VE, sv-SE, th-TH, tr-TR, uk-UA, vi-VN
+sq-AL, ar-DZ, ar-BH, ar-EG, ar-IQ, ar-JO, ar-KW, ar-LB, ar-LY, ar-MA, 
+ar-OM, ar-QA, ar-SA, ar-SD, ar-SY, ar-TN, ar-AE, ar-YE, be-BY, bg-BG, 
+ca-ES, zh-CN, zh-HK, zh-SG, zh-TW, hr-HR, cs-CZ, da-DK, nl-BE, nl-NL, 
+en-AU, en-CA, en-IN, en-IE, en-MT, en-NZ, en-PH, en-SG, en-ZA, en-GB, 
+en-US, et-EE, fi-FI, fr-BE, fr-CA, fr-FR, fr-LU, fr-CH, de-AT, de-DE, 
+de-LU, de-CH, el-CY, el-GR, iw-IL, hi-IN, hu-HU, is-IS, in-ID, ga-IE, 
+it-IT, it-CH, ja-JP, ko-KR, lv-LV, lt-LT, mk-MK, ms-MY, mt-MT, no-NO, 
+pl-PL, pt-BR, pt-PT, ro-RO, ru-RU, sr-BA, sr-ME, sr-CS, sr-RS, sk-SK, 
+sl-SI, es-AR, es-BO, es-CL, es-CO, es-CR, es-DO, es-EC, es-SV, es-GT, 
+es-HN, es-MX, es-NI, es-PA, es-PY, es-PE, es-PR, es-ES, es-US, es-UY, 
+es-VE, sv-SE, th-TH, tr-TR, uk-UA, vi-VN
 ```
 
 ## License
