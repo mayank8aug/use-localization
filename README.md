@@ -53,7 +53,7 @@ To play around with the hook, try these interactive sample apps
 An object containing below properties
 
 | Prop | Return Type | Description |
-| --- | :---: | :---: | --- |
+| --- | :---: | --- |
 | formatCurrency | Function | Takes any number as an argument and returns the formatted localized value with currency |
 | formatNumber | Function | Takes any number as an argument and returns the formatted localized value |
 | flag | Text | Text representation of the country flag based on the locale. For example, 🇮🇳 for en-IN |
