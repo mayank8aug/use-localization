@@ -1,6 +1,6 @@
-declare const localeList: readonly string[];
+import { LOCALES } from './utils';
 declare type TProps = {
-    locale: typeof localeList[number];
+    locale: keyof typeof LOCALES;
 };
 declare function useLocalization(props: TProps): {
     formatCurrency: (value: number) => string;
