@@ -1,6 +1,5 @@
-import { LOCALES } from './utils';
 declare type TProps = {
-    locale: keyof typeof LOCALES;
+    locale: string;
 };
 declare function useLocalization(props: TProps): {
     formatCurrency: (value: number) => string;

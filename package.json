@@ -1,6 +1,6 @@
 {
   "name": "use-localization",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Custom Hook to support localization when locale changes. The hook will accept the locale and written the localization utilities.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
