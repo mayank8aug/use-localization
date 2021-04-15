@@ -9,7 +9,6 @@ type TProps = {
 
 function useLocalization(props: TProps) {
     const { locale } = props;
-    if (!locale || !currencies[locale]) return {};
     const [lang, loc] = locale.split('-');
     
     const formatCurrency = useCallback((value: number) => {
