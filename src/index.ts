@@ -1,8 +1,8 @@
 import { useCallback, useMemo } from 'react';
-import { currencies, rtlLangs, LOCALES } from './utils';
+import { currencies, rtlLangs } from './utils';
 
 type TProps = {
-    locale:  keyof typeof LOCALES;
+    locale: string;
 }
 
 function useLocalization(props: TProps) {
