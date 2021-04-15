@@ -1,19 +1,25 @@
-import React, { useCallback, useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import { currencies, rtlLangs } from './utils';
 
-function useLocalization(props) {
+const localeList = [... Object.keys(currencies)] as const;
+
+type TProps = {
+    locale: typeof localeList[number];
+}
+
+function useLocalization(props: TProps) {
     const { locale } = props;
     if (!locale || !currencies[locale]) return {};
     const [lang, loc] = locale.split('-');
     
-    const formatCurrency = useCallback((value) => {
+    const formatCurrency = useCallback((value: number) => {
         return new Intl.NumberFormat(locale, {
             style: 'currency',
             currency: currencies[locale]
         }).format(value)
     }, [locale]);
 
-    const formatNumber = useCallback((value) => {
+    const formatNumber = useCallback((value: number) => {
         return new Intl.NumberFormat(locale).format(value)
     }, [locale]);
 

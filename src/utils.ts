@@ -1,4 +1,4 @@
-export const currencies = {
+export const currencies: {[key: string]: string} = {
     'sq-AL': 'ALL', // ALBANIA
     'ar-DZ': 'DZD', // ALGERIA
     'ar-BH': 'BHD', // BAHRAIN
